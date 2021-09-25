@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="add-list-modal.css">
+    <script src="https://kit.fontawesome.com/61e5528767.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container1">
+        <div class="left">   
+            <span class="nav-brand">Task</span>Lists
+        </div>
+        <div class="right">
+            <a href="">
+            <i class="fas fa-plus-circle"></i>
+            <span class="nav-text">Add List</span>
+        </a>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="item" id="item1">
+            <div class="item-head">
+                <a href="trip.html" class="item-link"> Trip To Paris</a></div>
+            <hr>
+            <ul>
+                <li class="task1">Completed Task</li>
+                <li>
+                    <input type="checkbox" name="" id="pt1">
+                    <label for="pt1">Pending Task</label>
+                </li>
+            </ul>
+
+        </div>
+        <div class="item" id="item2">
+            <div class="item-head">
+                <a href="trip.html" class="item-link"> My Todo List</a></div>
+            <hr>
+            <ul>
+                <li class="task1">Completed Task</li>
+                <li>
+                    <input type="checkbox" name="" id="pt2">
+                    <label for="pt2">Pending Task</label>
+                </li>
+            </ul>
+        </div>
+        <div class="item" id="item3">
+            <div class="item-head">
+                <a href="trip.html" class="item-link"> My Todo List</a></div>
+            <hr>
+            <ul>
+                <li class="task1">Completed Task</li>
+                <li>
+                    <input type="checkbox" name="" id="pt3">
+                    <label for="pt3">Pending Task</label>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close"><i class="far fa-times-circle"></i></div>
+            <span class="list-title">Add New Item</span> <br>
+            <input type="text" class="list-input"> <br>
+            <button type="submit" class="add-list-btn">Add</button>
+        </div>
+    </div>
+</body>
+</html>
